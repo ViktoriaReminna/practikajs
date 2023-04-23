@@ -100,3 +100,47 @@
 //     console.log(`Загальна сума введених чисел дорівнює ${total}.`);
 //   }
 // } while (buleanNumber);
+
+
+//Напишіть через свіч пошуку автора мови програмування
+// пишемо назву мови у шаблонному рядку отримує відповідь мова та автор
+// PHP Расмус Лердорф
+// C# група інженерів компанії Microsoft під керівництвом Андерса Хейлсберга та Скотта //Вільтаумота
+// Swift Кріс Латтнер
+// JS Брендан Ейх
+// Java Джеймс Гослінг
+// Python Гвідо ван Россум
+
+// const author = prompt('Please type in the programming language name').toLowerCase();
+
+// switch (author) {
+//     case 'PHP':
+//         console.log(`${author} Расмус Лердорф`);
+//         break;
+//         case 'C#':
+//         console.log(`${author} група інженерів компанії Microsoft під керівництвом Андерса Хейлсберга та Скотта //Вільтаумота`);
+//         break;
+//         case 'Swift':
+//         console.log(`${author} Кріс Латтнер`);
+//         break;
+//         case 'JS':
+//         console.log(`${author} Брендан Ейх`);
+//         break;
+//         case 'java':
+//         console.log(`${author} Джеймс Гослінг`);
+//         break;
+//         case 'Python':
+//         console.log(`${author} Гвідо ван Россум`);
+//         break;
+
+//     default:console.log(`I do not know this type of language`);
+//         break;
+// }
+
+// Запитати у користувача ім’я, пошту , телефон, 
+// та показати у консолі "користувач __ використовує  __ пошту __ телефон"
+
+const userName = prompt ('Type your name')
+const userMail = prompt ('Type your email')
+const userPhone = prompt ('Type your phone')
+console.log (`користувач ${userName} використовує  ${userMail} пошту ${userPhone} телефон`);

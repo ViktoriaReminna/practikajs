@@ -140,7 +140,9 @@
 // Запитати у користувача ім’я, пошту , телефон, 
 // та показати у консолі "користувач __ використовує  __ пошту __ телефон"
 
-const userName = prompt ('Type your name')
-const userMail = prompt ('Type your email')
-const userPhone = prompt ('Type your phone')
-console.log (`користувач ${userName} використовує  ${userMail} пошту ${userPhone} телефон`);
+// const userName = prompt ('Type your name')
+// const userMail = prompt ('Type your email')
+// const userPhone = prompt ('Type your phone')
+// console.log (`користувач ${userName} використовує  ${userMail} пошту ${userPhone} телефон`);
+
+

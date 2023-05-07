@@ -102,18 +102,99 @@
 // виведення buzz замість чисел, кратних 5;
 // виведення fizzbuzz замість чисел, кратних як 3, і 5.
 
-function fizzbuzz(number) {
-  for (let index = 1; index <= number; index++) {
-    if (index % 3 === 0 && index % 5 === 0) {
-      console.log("fizzbuzz");
-    } else if (index % 5 === 0) {
-      console.log("buzz");
-    } else if (index % 3 === 0) {
-      console.log("fizz");
-    } else {
-      console.log(index);
-    }
-  }
-}
+// function fizzbuzz(number) {
+//   for (let index = 1; index <= number; index++) {
+//     if (index % 3 === 0 && index % 5 === 0) {
+//       console.log("fizzbuzz");
+//     } else if (index % 5 === 0) {
+//       console.log("buzz");
+//     } else if (index % 3 === 0) {
+//       console.log("fizz");
+//     } else {
+//       console.log(index);
+//     }
+//   }
+// }
 
-fizzbuzz(45);
+// fizzbuzz(45);
+
+// Пошук голосних
+
+//Потрібно написати функцію, яка приймає рядок як аргумент і повертає //кількість голосних, які містяться в рядку.
+//Голосними є "a", "e", "i", "o", "u".
+
+
+// function fuString(string) {
+//   const newArray = ["a", "e", "i", "o", "u"];
+//   let quantity = 0;
+  
+//   for (const str of string.toLowerCase()) {
+//     if (newArray.includes(str)) {
+//       quantity += 1
+//     }
+//   }
+//   return quantity;
+// }
+
+// // fuString("string")
+// console.log(fuString("string"))
+
+
+// /Напишіть ф-цію calcTotalPrice(stones, stonesName),
+// //яка приймає масив об'єктів та
+// //рядок під назвою каменю.
+// //Функція  повертає загальну вартість каменів
+// //з таким ім'ям, ціною та кількістю з об'єкта
+//
+
+// const stones = [
+//   { name: "Изумруд", price: 1300, quantity: 4 },
+//   { name: "Бриллиант", price: 2700, quantity: 6 },
+//   { name: "Сапфир", price: 400, quantity: 7 },
+//   { name: "Щебень", price: 150, quantity: 100 },
+// ];
+
+// function calcTotalPrice(stones, stonesName) {
+     
+//   // for (const stone of stones) {
+//   //   // const {name, price, quantity } = stone
+//   //   if (name === stonesName) {
+//   //     return price * quantity;
+//         //   }
+        
+//   // }
+
+//    for (const {name, price, quantity } of stones) {
+//     if (name === stonesName) {
+//       return price * quantity;
+      
+//     }
+//   }
+// }
+// console.log(calcTotalPrice(stones, "Сапфир") )
+
+
+// Створіть об'єкт calculator із трьома методами
+// read(a, b) - приймає два аргументи та зберігає їх
+// як властивості об'єкта
+// sum() повертає суму збережених значень
+// mult() перемножує збережені значення та повертає результат
+
+// const calculator = {
+//   read(a, b) {
+//     this.first = a
+//     this.second = b
+//     return{first: this.first, second: this.second}
+//   },
+//   sum() {
+//     return this.first + this.second;
+//   },
+//   mult() { 
+//     return this.first * this.second;
+//   },
+// }
+// console.log(calculator)
+// console.log(calculator.read(3, 5))
+// console.log(calculator)
+// console.log(calculator.sum())
+//  console.log(calculator.mult())
